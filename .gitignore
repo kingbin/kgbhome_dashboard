@@ -1,4 +1,6 @@
 *.lock
+junk/*
+
 *.gem
 *.rbc
 .bundle
