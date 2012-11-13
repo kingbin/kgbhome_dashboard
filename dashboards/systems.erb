@@ -18,37 +18,8 @@ $(function() {
     </li>
 
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="thermostat_info" data-view="Text" data-title="Current House Temp" data-text="This is my shiny new home automation dashboard." data-moreinfo="Protip: You can drag the widgets around!"></div>
+      <div data-id="thermostat_info" data-view="Text" data-title="Current House Temp" data-text="This is my shiny new home automation dashboard." data-moreinfo="Thermostat not found on the network!"></div>
     </li>
-
-    <!--
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-view="Image" data-image="/logo.png"></div>
-    </li>
-    -->
-
-    <!--
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="synergy" data-view="Meter" data-title="Synergy" data-min="0" data-max="100"></div>
-    </li>
-
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="synergy" data-view="Meter" data-moreinfo="In sync with my neighbour!" data-title="Synergy" data-min="0" data-max="100"></div>
-    </li>
-
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="2">
-      <div data-id="buzzwords" data-view="List" data-unordered="true" data-title="Buzzwords" data-moreinfo="# of times said around the office"></div>
-    </li>
-
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="karma" data-view="Number" data-title="Karma" style="background-color:#96bf48;"></div>
-      <i class="icon-heart icon-background"></i>
-    </li>
-
-    <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
-      <div data-id="convergence" data-view="Graph" data-title="Convergence" style="background-color:#47bbb3;" data-moreinfo="poop" ></div>
-    </li>
-    -->
 
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
       <div data-id="twitter_mentions" data-view="Comments" style="background-color:#ff9618;" data-moreinfo="Tweets tagged with #todayilearned"></div>
@@ -56,5 +27,4 @@ $(function() {
     </li>
 
   </ul>
-  <center><div style="font-size: 12px">Try this: curl -d '{ "auth_token": "YOUR_AUTH_TOKEN", "text": "Hey, Look what I can do!" }' \http://<%=request.host%>:<%=request.port%>/widgets/welcome</div></center>
 </div>
